@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="393" height="523" viewBox="0 0 393 523" role="img" aria-label="JAA duurzaam huis logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f5df7"/>
+      <stop offset="0.55" stop-color="#6d45f4"/>
+      <stop offset="1" stop-color="#b20cff"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.07"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#33218f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect x="5" y="5" width="383" height="512" rx="42" fill="url(#bg)"/>
+
+  <!-- subtle circuit lines -->
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M46 261H163V244"/>
+    <path d="M244 220H321V301H204V356"/>
+    <path d="M244 220V261H361"/>
+    <path d="M203 244V296"/>
+    <path d="M204 356V414"/>
+  </g>
+  <g fill="#ffffff" opacity="0.22">
+    <circle cx="163" cy="261" r="8"/>
+    <circle cx="321" cy="220" r="8"/>
+    <circle cx="204" cy="296" r="8"/>
+  </g>
+
+  <!-- house emblem -->
+  <g filter="url(#softShadow)">
+    <rect x="129" y="94" width="149" height="149" rx="29" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+    <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M170 164L203 131L236 158V200H172L170 164Z"/>
+      <path d="M191 199V169H217V199"/>
+    </g>
+  </g>
+
+  <!-- brand text -->
+  <text x="196.5" y="374" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="106" font-weight="900" letter-spacing="6">JAA</text>
+
+  <!-- dots -->
+  <g fill="#ffffff">
+    <circle cx="174" cy="421" r="7.5" opacity="0.62"/>
+    <circle cx="204" cy="421" r="7.5" opacity="0.82"/>
+    <circle cx="233" cy="421" r="7.5"/>
+  </g>
+</svg>
