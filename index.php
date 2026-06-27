@@ -22,19 +22,19 @@ $pageTitle = 'Duurzaam Huis Dashboard';
                     <strong class="big">
     <span id="temperature">16</span>°C
 </strong>
-                    <span class="icon">🌡️</span>
+                    <span class="icon"></span>
                 </article>
 
                 <article class="card accent-orange">
                     <span class="label">Zon Tijden</span>
-                    <p>🌅 <b>Opkomst:</b> 06:24</p>
-                    <p>🌇 <b>Ondergang:</b> 21:18</p>
+                    <p> <b>Opkomst:</b> 06:24</p>
+                    <p> <b>Ondergang:</b> 21:18</p>
                 </article>
 
                 <article class="card weather-card accent-cyan">
                     <span class="label">Weersverwachting</span>
-                    <p>☀️ <b>Vandaag:</b> Zonnig<br><small>Max: 19°C</small></p>
-                    <p>🌧️ <b>Morgen:</b> Regenachtig<br><small>Max: 15°C</small></p>
+                    <p> <b>Vandaag:</b> Zonnig<br><small>Max: 19°C</small></p>
+                    <p> <b>Morgen:</b> Regenachtig<br><small>Max: 15°C</small></p>
                 </article>
             </div>
         </section>
@@ -64,24 +64,24 @@ $pageTitle = 'Duurzaam Huis Dashboard';
             <h2>Meten & Regelen</h2>
             <div class="grid control-grid">
                 <article class="card control red">
-                    <h3>🌡️ Woonkamer</h3>
+                    <h3> Woonkamer</h3>
                     <strong>21.5°C</strong>
                     <small>Luchtvochtigheid: 55%</small>
                 </article>
 
                 <article class="card control orange">
-                    <h3>💡 Lamp Status</h3>
+                    <h3> Lamp Status</h3>
                     <strong>UIT</strong>
                     <small>Woonkamer plafondlamp</small>
                 </article>
 
                 <article class="card control purple">
-                    <h3>⏻ Lamp Bediening</h3>
+                    <h3> Lamp Bediening</h3>
                     <button onclick="toggleLamp()" id="lampButton">Lamp Inschakelen</button>
                 </article>
 
                 <article class="card control green">
-                    <h3>⏱️ Lamp Timer</h3>
+                    <h3> Lamp Timer</h3>
                     <label for="timer">Tijd</label>
                     <input type="time" id="timer" value="18:00">
                     <button>Timer Starten</button>
