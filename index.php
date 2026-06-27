@@ -130,3 +130,6 @@ $pageTitle = 'Duurzaam Huis Dashboard';
     </script>
 </body>
 </html>
+<span id="naam1"></span>
+<span id="naam2"></span>
+<span id="naam3"></span>
