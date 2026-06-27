@@ -28,7 +28,7 @@ body {
     border-radius: 14px;
     display: block;
     object-fit: cover;
-    box-shadow: 0 8px 18px rgba(124, 58, 237, .28);
+    box-shadow: 0 8px 18px rgba(124, 58, 237, 0.28);
 }
 
 h1 {
@@ -66,15 +66,14 @@ h2 {
 
 .card {
     position: relative;
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 12px;
     padding: 18px;
-    box-shadow: 0 8px 18px rgba(15, 23, 42, .08);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
     border-top: 3px solid transparent;
 }
 
-.label,
-small {
+.label, small {
     color: #64748b;
     font-size: 12px;
 }
@@ -93,9 +92,17 @@ small {
     font-size: 30px;
 }
 
-.accent-blue { border-left: 3px solid #3b82f6; }
-.accent-orange { border-left: 3px solid #fb923c; }
-.accent-cyan { border-left: 3px solid #38bdf8; }
+.accent-blue {
+    border-left: 3px solid #3b82f6;
+}
+
+.accent-orange {
+    border-left: 3px solid #fb923c;
+}
+
+.accent-cyan {
+    border-left: 3px solid #38bdf8;
+}
 
 .chart-card h3,
 .control h3 {
@@ -125,10 +132,21 @@ small {
     font-size: 22px;
 }
 
-.red { border-top-color: #ef4444; }
-.orange { border-top-color: #f59e0b; }
-.purple { border-top-color: #a855f7; }
-.green { border-top-color: #22c55e; }
+.red {
+    border-top-color: #ef4444;
+}
+
+.orange {
+    border-top-color: #f59e0b;
+}
+
+.purple {
+    border-top-color: #a855f7;
+}
+
+.green {
+    border-top-color: #22c55e;
+}
 
 button,
 input {
