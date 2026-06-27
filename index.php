@@ -19,7 +19,9 @@ $pageTitle = 'Duurzaam Huis Dashboard';
             <div class="grid info-grid">
                 <article class="card accent-blue">
                     <span class="label">Buitentemperatuur</span>
-                    <strong class="big">16°C</strong>
+                    <strong class="big">
+    <span id="temperature">16</span>°C
+</strong>
                     <span class="icon">🌡️</span>
                 </article>
 
